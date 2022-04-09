@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #694e4e;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #886f6f;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #c1a3a3;
+  font-size: 1.5rem;
+}
+
+p {
+  line-height: 2;
+}
+p {
+  font-size: 1rem;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #f3c5c5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.cica {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.computer,
+.analytic,
+.baking {
+  width: 120px;
+}
+
+.computer,
+.analytic {
+  float: left;
+  margin-right: 30px;
+}
+.baking {
+  margin-left: 30px;
+  float: right;
+}
+
+.bottom-container {
+  background-color: #f3c5c5;
+  margin-top: 60px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.business {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.btn {
+  background: #c1a3a3;
+  background-image: linear-gradient(to bottom, #c1a3a3, #886f6f);
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #c1a3a3, #694e4e);
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #886f6f;
+  margin: 0 20px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 50px auto 60px;
+}
